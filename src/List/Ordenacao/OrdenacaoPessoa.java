@@ -1,4 +1,4 @@
-package Ordenacao;
+package List.Ordenacao;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -34,7 +34,7 @@ public class OrdenacaoPessoa {
         ordenacaoPessoa.adicionarPessoa("Nome 3", 25, 1.70);
         ordenacaoPessoa.adicionarPessoa("Nome 4", 17, 1.56);
 
-        System.out.println(ordenacaoPessoa.ordenarPorIdade());
+        //System.out.println(ordenacaoPessoa.ordenarPorIdade());
         System.out.println(ordenacaoPessoa.ordenarPorAltura());
     }
 }
